@@ -12,3 +12,4 @@
     * скорость формирование дерева объектов конфигурации увеличена с 1.5 мин до 35 сек на УПП(1.2)
     * пересмотрена политика  обновлений  раньше  с учетом двух версий  использовался запрос к Google Base с одной версией в этом необходимость отпал, поэтому был создан [http://feeds.feedburner.com/EnterpriseIntegrator RSS канал], в котором фиксируется новые версии.  Этот канал Ei при запуске и проверяет.
     * создана новый эксперементальный раздел "Структура модуля" вызывается из фомы встроенного языка  реализован в рамках первого шага [http://code.google.com/p/enterprise-integrator/wiki/Plans Апрельских планов].http://enterpriseintegrator.googlepages.com/StructureModule.jpg
+[http://code.google.com/p/enterprise-integrator/downloads/detail?name=Ei%200.54.8.epf&can=2&q= http://enterpriseintegrator.googlepages.com/download.png] [http://code.google.com/p/enterprise-integrator/downloads/detail?name=Ei%200.54.8.epf&can=2&q= Download]
