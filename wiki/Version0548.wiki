@@ -1,5 +1,5 @@
 #summary Версия 0.54.8 Beta
-#labels Version
+#labels Version,Featured
 Этим обновлением заканчивается расширение функционала, взят курс на приведение в порядок уже существующих конструкции. Функционал настолько сильно разрозся, что поддерживать его и  привлекать новые ресурсы в разработку достаточно сложно. Есть некоторые проблемы (формирование представлений), которые пока не были решены, но во всем остальном ошибок замечено не было.
 
     * для запросов SQL создан режим временных таблиц, позволяющий возвращать результаты в объект "РезультатЗапроса" [http://groups.google.ru/group/enterprise-integrator/web/%D0%BF%D1%80%D1%8F%D0%BC%D1%8B%D0%B5%20%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81%D1%8B%20%D1%81%20%D1%82%D0%B8%D0%BF%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D0%B5%D0%B9 Подробнее...] http://enterpriseintegrator.googlepages.com/tempTable.jpg
@@ -13,4 +13,5 @@
     * пересмотрена политика  обновлений  раньше  с учетом двух версий  использовался запрос к Google Base с одной версией в этом необходимость отпал, поэтому был создан [http://feeds.feedburner.com/EnterpriseIntegrator RSS канал], в котором фиксируется новые версии.  Этот канал Ei при запуске и проверяет.
     * создана новый эксперементальный раздел "Структура модуля" вызывается из фомы встроенного языка  реализован в рамках первого шага [http://code.google.com/p/enterprise-integrator/wiki/Plans Апрельских планов].http://enterpriseintegrator.googlepages.com/StructureModule.jpg
     * перешли на [http://infostart.ru/projects/1843/ v8Unpack 2.0]
+    * исключена компонента [http://infostart.ru/profile/7914/projects/1172/ RadminViewer] 
 [http://code.google.com/p/enterprise-integrator/downloads/detail?name=Ei%200.54.8.epf&can=2&q= http://enterpriseintegrator.googlepages.com/download.png] [http://code.google.com/p/enterprise-integrator/downloads/detail?name=Ei%200.54.8.epf&can=2&q= Download]
