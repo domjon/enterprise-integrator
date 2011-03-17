@@ -10,4 +10,4 @@ https://lh3.googleusercontent.com/_TFMiJBLi7yc/TYHkY08aPrI/AAAAAAAADVs/NPfxl6SqI
 в качестве библиотеки новой компоненты используйте _hasp_com_windows.dll_ (находится в каталоге обработки)
 https://lh6.googleusercontent.com/_TFMiJBLi7yc/TYHmWry26XI/AAAAAAAADV4/4XZSTjAL03k/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA350.png
 
-библиотеку защиты файл _hasp_windows_99792.dll_ из каталога обработки в папку _%windir%\SysWOW64_
+  * Библиотеку защиты, файл _hasp_windows_99792.dll_ скопируйте из каталога обработки в папку _%windir%\SysWOW64_
