@@ -1,0 +1,13 @@
+#summary Регистрация библиотеки защиты на x64
+#labels Featured
+Поскольку 32-разрядная компонента не может быть загружена в адресное пространство 64-разрядного приложения необходимо зарегистрировать ee в COM+.
+----
+  * Запустите Component Services _Пуск - Выполнить_ - *dcomcnfg*
+  * Создайте COM+ приложение 
+https://lh5.googleusercontent.com/_TFMiJBLi7yc/TYHkY0ygK5I/AAAAAAAADVw/kCYTFo4Mtkg/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA347.png
+https://lh3.googleusercontent.com/_TFMiJBLi7yc/TYHkY08aPrI/AAAAAAAADVs/NPfxl6SqIiI/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA348.png
+  * Добавьте новую компоненту https://lh6.googleusercontent.com/_TFMiJBLi7yc/TYHkY7lZ8_I/AAAAAAAADVo/mi6Zme5Bqsk/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA349.png 
+в качестве библиотеки новой компоненты используйте _hasp_com_windows.dll_ (находится в каталоге обработки)
+https://lh6.googleusercontent.com/_TFMiJBLi7yc/TYHmWry26XI/AAAAAAAADV4/4XZSTjAL03k/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA350.png
+
+библиотеку защиты файл _hasp_windows_99792.dll_ из каталога обработки в папку _%windir%\SysWOW64_
