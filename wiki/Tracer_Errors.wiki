@@ -1,5 +1,4 @@
 #summary Ошибка запуска трассировки
-#labels Featured
 
 <wiki:toc max_depth="1" />
 
